@@ -2,7 +2,7 @@ header {
     background-color: lightgray;
 }
 
-
+/* projects section start */
 .card-columns {
     @include media-breakpoint-only(lg) {
       column-count: 4;
@@ -11,3 +11,18 @@ header {
       column-count: 5;
     }
   }
+/* projects section end */
+
+/* social icon section start */
+
+.icon-container {
+  display: inline-flex;
+}
+
+.icon {
+  font-size: 6em;
+  
+}
+
+/* social icon section end */
+

@@ -29,7 +29,7 @@
                         <img src="./assets/images/my-logo.png" alt="Andrew Peterson" class="logo-text-white logo-large">
                         <!-- <img src="assets/images/code-icon.png" alt="Andrew Peterson" class="logo-small logo-text-white"> -->
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    <button class="navbar-toggler btn btn-primary" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -84,7 +84,8 @@
                         <h2>Hi, my name is</h2>
                         <h1>Andrew Peterson.</h1>
                         <h3>I like to build things.</h3>
-                        <p>I'm a student of Northwestern University's full stack web development bootcamp based in
+                        <p class="lead">I'm a student of Northwestern University's full stack web development bootcamp
+                            based in
                             Chicago,
                             IL focusing on building high-quality websites and applications.</p>
                         <a href="mailto:andrewpetersondev@gmail.com" target="_blank">email me</a>
@@ -118,7 +119,26 @@
         <section id="experience">
             <div class="container">
                 <div class="row">
-                    <div class="col-12"></div>
+                    <div class="col-12">
+                        <!-- progress bars -->
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 25%"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%"
+                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <!-- // progress bars -->
+                    </div>
                     <!-- // column -->
                 </div>
             </div>
@@ -374,18 +394,24 @@
                 <div class="row">
                     <div class="col-12">
                         <h3>follow me</h3>
-                        <div class="icon-container">
-                            <div>
+                    </div>
+                    <!-- // column -->
+                </div>
+                <!-- // row -->
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <div class="icon-container d-flex justify-content-around">
+                            <div class="icon">
                                 <a href="https://www.linkedin.com/in/andrew-peterson-005b11189/" target="_blank">
                                     <i class="fab fa-linkedin"></i>
                                 </a>
                             </div>
-                            <div>
+                            <div class="icon">
                                 <a href="https://github.com/andrewpetersondev" target="_blank">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
-                            <div>
+                            <div class="icon">
                                 <a href="https://www.freecodecamp.org/fccef7e2ecb-40ec-4c46-a94a-b3351888b848"
                                     target="_blank">
                                     <i class="fab fa-free-code-camp"></i>
@@ -393,9 +419,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- // column -->
                 </div>
-                <!-- // row -->
             </div>
             <!-- // container -->
         </section>
