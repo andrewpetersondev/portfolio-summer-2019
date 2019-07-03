@@ -2,6 +2,10 @@ header {
     background-color: lightgray;
 }
 
+.logo-container {
+  display: inline-block;
+}
+
 /* projects section start */
 .card-columns {
     @include media-breakpoint-only(lg) {
