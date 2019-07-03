@@ -2,7 +2,7 @@
 
 ## Take a look
 
-**[Portfolio Summer 2019]()**
+**[Portfolio Summer 2019](https://github.com/andrewpetersondev/portfolio-summer-2019)**
 
 ## Technologies Used
 
