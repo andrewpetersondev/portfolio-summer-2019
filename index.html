@@ -2,29 +2,21 @@
 <html lang="en-US">
 
 <head>
-    <!-- Required meta tags -->
+    <title>Andrew Peterson | Full Stack Developer </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- style -->
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>Andrew Peterson | Full Stack Developer </title>
 </head>
 
 <body>
 
-    <!-- header -->
     <header>
-        <!-- navigation -->
         <nav class="navbar navbar-expand-lg">
-            <!-- container -->
             <div class="container">
-                <!-- navbar header -->
                 <div class="navbar-header">
-                    <!-- logo -->
                     <!-- <a href="#" class="navbar-brand page-scroll">
                         <img src="./assets/images/my-logo.png" alt="Andrew Peterson" class="logo-text-white logo-large">
                     </a> -->
@@ -36,16 +28,13 @@
                         </svg> -->
                         <h1 class="logo-container">Andrew Peterson</h1>
                     </div>
-                    <!-- // logo -->
                     <button class="navbar-toggler btn btn-primary" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
-                <!-- collapsible navbar  -->
                 <div class="collapse navbar-collapse flex-row-reverse show" id="navbarSupportedContent">
-                    <!-- ordered list for navbar -->
                     <ol class="navbar-nav">
                         <li class="nav-item active"><a class="nav-link" href="#about">about me</a></li>
                         <li class="nav-item"><a class="nav-link" href="#experience">experience</a></li>
@@ -53,511 +42,408 @@
                         <li class="nav-item"><a class="nav-link" href="#current-projects">current projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">contact</a></li>
                     </ol>
-                    <!-- .// ordered list -->
-                    <!-- div for resume -->
                     <div>
                         <a href="./assets/resume.pdf">resume</a>
                     </div>
-                    <!-- .// resume -->
                 </div>
-                <!-- .//collapsible navbar  -->
             </div>
-            <!-- .//container -->
         </nav>
-        <!-- //.nav -->
     </header>
-    <!-- // .header -->
 
-    <!-- main content container -->
     <main class="container">
 
-        <!-- home section -->
-        <section id="home">
-            <!-- container -->
-            <div class="container">
-                <!-- row 1 -->
-                <div class="row">
-                    <!-- column -->
-                    <div class="col-12">
-                        <h2>Hi, my name is</h2>
-                        <h1>Andrew Peterson.</h1>
-                        <h3>I like to build things.</h3>
-                        <p class="lead">I'm a student of Northwestern University's full stack web development bootcamp
-                            based in
-                            Chicago,
-                            IL focusing on building high-quality websites and applications.</p>
-                        <a href="mailto:andrewpetersondev@gmail.com" target="_blank">email me</a>
-                    </div>
-                    <!-- // column -->
-                </div>
-                <!-- // row 1 -->
-            </div>
-            <!-- // container -->
-        </section>
-        <!-- // home section -->
-
-        <!-- about section -->
-        <section id="about">
-            <div class="container">
-                <!-- row 2 -->
-                <div class="row">
-                    <div class="col-12">
-                        <h3>About Me</h3>
-                        <p>I am </p>
-                    </div>
-                    <!-- // column -->
-                </div>
-            </div>
-            <!-- // container -->
-        </section>
-        <!-- // about section -->
-
-
-        <!-- experience section -->
-        <section id="experience">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-
-                        <!-- progress bars -->
-
-                        <!-- <div class="progress">
-                            <div class="progress-bar bg-success" role="progressbar" style="width: 25%"
-                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%"
-                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%"
-                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div> -->
-
-                        <!-- // progress bars -->
-
-                    </div>
-                    <!-- // column -->
-                </div>
-            </div>
-            <!-- // container -->
-        </section>
-        <!-- // experience section -->
-
-        <!-- projects section -->
-        <section id="projects">
-            <div class="container">
-                <!-- row 1 -->
-                <div class="row">
-                    <!-- column -->
-                    <div class="col-12">
-                        <p>Take a look at my projects!</p>
-                    </div>
-                    <!-- // column -->
-                </div>
-                <!-- // row 1 -->
-                <!-- row 2 -->
-                <div class="row">
-                    <!-- column for projects -->
-                    <div id="projects-display" class="col-12 card-columns">
-                        <!-- card trivia game-->
-                        <div id="trivia-game" class="card" style="width: 18rem;">
-                            <img src="./assets/images/question-mark.jpg" class="card-img-top" alt="question mark">
-                            <div class="card-body">
-                                <h5 class="card-title">Trivia Game</h5>
-                                <p class="card-text">I really like to travel so I made a basic trivia game with
-                                    javascript.</p>
-                                <!-- play icon -->
-                                <a href="https://andrewpetersondev.github.io/trivia-game/" target="_blank">
-                                    <i class="fas fa-play"></i>
-                                </a>
-                                <!-- code icon -->
-                                <a href="https://github.com/andrewpetersondev/trivia-game" target="_blank">
-                                    <i class="fas fa-code"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- // card trivia game -->
-                        <!-- card word guess game -->
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/hello.jpg" class="card-img-top" alt="hello">
-                            <div class="card-body">
-                                <h5 class="card-title">Word Guess Game</h5>
-                                <p class="card-text">Are you able to guess the what word I am thinking of?</p>
-                                <!-- play icon -->
-                                <a href="https://andrewpetersondev.github.io/word-guess-game/" target="_blank">
-                                    <i class="fas fa-play"></i>
-                                </a>
-                                <!-- code icon -->
-                                <a href="https://github.com/andrewpetersondev/word-guess-game" target="_blank">
-                                    <i class="fas fa-code"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- // card word guess game -->
-                        <!-- card psychic game -->
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/letter-a.jpg" class="card-img-top" alt="letter a">
-                            <div class="card-body">
-                                <h5 class="card-title">Psychic Game</h5>
-                                <p class="card-text">Are you able to guess the what letter I am thinking of?</p>
-                                <!-- play icon -->
-                                <a href="https://andrewpetersondev.github.io/psychic-game/" target="_blank">
-                                    <i class="fas fa-play"></i>
-                                </a>
-                                <!-- code icon -->
-                                <a href="https://github.com/andrewpetersondev/psychic-game" target="_blank">
-                                    <i class="fas fa-code"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- // card psychic game -->
-                        <!-- card basic train scheduler-->
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/loop-train.jpg" class="card-img-top" alt="train">
-                            <div class="card-body">
-                                <h5 class="card-title">Basic Train Scheduler</h5>
-                                <p class="card-text">Check out this train scheduler that uses firebase!</p>
-                                <!-- play icon -->
-                                <a href="https://andrewpetersondev.github.io/basic-train-scheduler/" target="_blank">
-                                    <i class="fas fa-play"></i>
-                                </a>
-                                <!-- code icon -->
-                                <a href="https://github.com/andrewpetersondev/basic-train-scheduler" target="_blank">
-                                    <i class="fas fa-code"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- // card basic train scheduler -->
-                        <!-- card rpg-->
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/khaleesi-army.jpeg" class="card-img-top" alt="game of thrones">
-                            <div class="card-body">
-                                <h5 class="card-title">jQuery RPG</h5>
-                                <p class="card-text">Winter is coming!</p>
-                                <!-- play icon -->
-                                <a href="https://andrewpetersondev.github.io/rpg/" target="_blank">
-                                    <i class="fas fa-play"></i>
-                                </a>
-                                <!-- code icon -->
-                                <a href="https://github.com/andrewpetersondev/rpg" target="_blank">
-                                    <i class="fas fa-code"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- // card rpg -->
-                        <!-- card gifTastic -->
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/stewie.gif" class="card-img-top" alt="stewie from family guy">
-                            <div class="card-body">
-                                <h5 class="card-title">gifTastic</h5>
-                                <p class="card-text">describe this project</p>
-                                <!-- play icon -->
-                                <a href="https://andrewpetersondev.github.io/gifTastic/" target="_blank">
-                                    <i class="fas fa-play"></i>
-                                </a>
-                                <!-- code icon -->
-                                <a href="https://github.com/andrewpetersondev/gifTastic" target="_blank">
-                                    <i class="fas fa-code"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- // card gifTastic -->
-                        <!-- card best buds -->
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/jumbobg.png" class="card-img-top" alt="cannabis">
-                            <div class="card-body">
-                                <h5 class="card-title">Best Buds</h5>
-                                <p class="card-text">This is my first group project.</p>
-                                <!-- play icon -->
-                                <a href="https://andrewpetersondev.github.io/project-1/" target="_blank">
-                                    <i class="fas fa-play"></i>
-                                </a>
-                                <!-- code icon -->
-                                <a href="https://github.com/andrewpetersondev/project-1" target="_blank">
-                                    <i class="fas fa-code"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- // card best buds -->
-                        <!-- card crystals collector game -->
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/red-crystal.png" class="card-img-top" alt="red crystal">
-                            <div class="card-body">
-                                <h5 class="card-title">Crystals Collector Game</h5>
-                                <p class="card-text">describe later</p>
-                                <!-- play icon -->
-                                <a href="https://andrewpetersondev.github.io/crystals-collector-game/" target="_blank">
-                                    <i class="fas fa-play"></i>
-                                </a>
-                                <!-- code icon -->
-                                <a href="https://github.com/andrewpetersondev/crystals-collector-game" target="_blank">
-                                    <i class="fas fa-code"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- // card crystals collector game -->
-                        <!-- card node liri app -->
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/liri-bot.jpg" class="card-img-top" alt="liri bot">
-                            <div class="card-body">
-                                <h5 class="card-title">Node LIRI App</h5>
-                                <p class="card-text">describe later</p>
-                                <!-- code icon -->
-                                <a href="https://github.com/andrewpetersondev/liri-node-app" target="_blank">
-                                    <i class="fas fa-code"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- // card node liri app -->
-                        <!-- bamazon -->
-                        <div id="bamazon" class="card" style="width: 18rem;">
-                            <img src="./assets/images/question-mark.jpg" class="card-img-top" alt="question mark">
-                            <div class="card-body">
-                                <h5 class="card-title">Bamazon</h5>
-                                <p class="card-text">Text</p>
-                                <!-- play icon -->
-                                <a href="https://andrewpetersondev.github.io/bamazon/" target="_blank">
-                                    <i class="fas fa-play"></i>
-                                </a>
-                                <!-- code icon -->
-                                <a href="https://github.com/andrewpetersondev/bamazon" target="_blank">
-                                    <i class="fas fa-code"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- // bamazon -->
-                        <!-- Friend Finder -->
-                        <div id="friendFinder" class="card" style="width: 18rem;">
-                            <img src="./assets/images/question-mark.jpg" class="card-img-top" alt="question mark">
-                            <div class="card-body">
-                                <h5 class="card-title">Friend Finder</h5>
-                                <p class="card-text">Text</p>
-                                <!-- play icon -->
-                                <a href="https://andrewpetersondev.github.io/friendfinder/" target="_blank">
-                                    <i class="fas fa-play"></i>
-                                </a>
-                                <!-- code icon -->
-                                <a href="https://github.com/andrewpetersondev/friendfinder" target="_blank">
-                                    <i class="fas fa-code"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- // Friend Finder -->
-                        <!-- burgers -->
-                        <div id="burgers" class="card" style="width: 18rem;">
-                            <img src="./assets/images/question-mark.jpg" class="card-img-top" alt="question mark">
-                            <div class="card-body">
-                                <h5 class="card-title">burgers</h5>
-                                <p class="card-text">Text</p>
-                                <!-- play icon -->
-                                <a href="https://andrewpetersondev.github.io/burgers/" target="_blank">
-                                    <i class="fas fa-play"></i>
-                                </a>
-                                <!-- code icon -->
-                                <a href="https://github.com/andrewpetersondev/burgers" target="_blank">
-                                    <i class="fas fa-code"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- // burgers -->
-                        <!-- project 2 -->
-                        <div id="project2" class="card" style="width: 18rem;">
-                            <img src="./assets/images/question-mark.jpg" class="card-img-top" alt="question mark">
-                            <div class="card-body">
-                                <h5 class="card-title">project2</h5>
-                                <p class="card-text">Text</p>
-                                <!-- play icon -->
-                                <a href="https://andrewpetersondev.github.io/project2/" target="_blank">
-                                    <i class="fas fa-play"></i>
-                                </a>
-                                <!-- code icon -->
-                                <a href="https://github.com/andrewpetersondev/project2" target="_blank">
-                                    <i class="fas fa-code"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- // project 2 -->
-                    </div>
-                    <!-- // column for projects -->
-                </div>
-                <!-- // row 2 -->
-            </div>
-            <!-- // container -->
-        </section>
-        <!-- // projects section -->
-
-        <!-- current projects section -->
-        <section id="current-projects">
-            <!-- container -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <p>These are projects I am working on in my free time.</p>
-                    </div>
-                </div>
-                <!-- row -->
-                <div class="row">
-                    <!-- column -->
-                    <div class="col-12 card-columns">
-                        <!-- card rps -->
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/rps.jpg" class="card-img-top" alt="rock paper scissors">
-                            <div class="card-body">
-                                <h5 class="card-title">Rock Paper Scissors</h5>
-                                <p class="card-text">Multiplayer rock paper scissors with firebase</p>
-                                <!-- play icon -->
-                                <!-- <a href="" target="_blank"> <i class="fas fa-play"></i> </a> -->
-                                <!-- code icon -->
-                                <a href="https://github.com/andrewpetersondev/rps-multiplayer" target="_blank">
-                                    <i class="fas fa-code"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- // card rps -->
-                        <!-- card mood identifier -->
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/smile.jpg" class="card-img-top" alt="smiling thing">
-                            <div class="card-body">
-                                <h5 class="card-title">Mood Identifier</h5>
-                                <p class="card-text">this is gonna be cool</p>
-                                <!-- play icon -->
-                                <!-- <a href="" target="_blank"> <i class="fas fa-play"></i> </a> -->
-                                <!-- code icon -->
-                                <a href="https://github.com/andrewpetersondev/mood identifier-multiplayer"
-                                    target="_blank">
-                                    <i class="fas fa-code"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- // card mood identifier -->
-                        <!-- card cryptocurrency -->
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/cryptocurrency.jpg" class="card-img-top" alt="cryptocurrency">
-                            <div class="card-body">
-                                <h5 class="card-title">Cryptocurrency Analysis</h5>
-                                <p class="card-text">this is gonna be cool</p>
-                                <!-- play icon -->
-                                <!-- <a href="" target="_blank"> <i class="fas fa-play"></i> </a> -->
-                                <!-- code icon -->
-                                <!-- <a href="" target="_blank"> <i class="fas fa-code"></i> </a> -->
-                            </div>
-                        </div>
-                        <!-- // card cryptocurrency -->
-                    </div>
-                    <!-- // column -->
-                </div>
-            </div>
-            <!-- // container -->
-        </section>
-        <!-- // current projects section -->
-
-        <!-- contact section -->
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-
-                    </div>
-                    <!-- // column -->
-                </div>
-                <!-- // row -->
-            </div>
-            <!-- // container -->
-        </section>
-        <!-- // contact section -->
-
-        <!-- social section -->
-        <section id="social">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3>follow me</h3>
-                    </div>
-                    <!-- // column -->
-                </div>
-                <!-- // row -->
-                <div class="row align-items-center">
-                    <div class="col-12">
-                        <div class="icon-container d-flex justify-content-around">
-                            <div class="icon">
-                                <a href="https://www.linkedin.com/in/andrew-peterson-005b11189/" target="_blank">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                            </div>
-                            <div class="icon">
-                                <a href="https://github.com/andrewpetersondev" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                            <div class="icon">
-                                <a href="https://www.freecodecamp.org/fccef7e2ecb-40ec-4c46-a94a-b3351888b848"
-                                    target="_blank">
-                                    <i class="fab fa-free-code-camp"></i>
-                                </a>
+        <div class="row">
+            <div class="col-12">
+                <section id="home">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2>Hi, my name is</h2>
+                                <h1>Andrew Peterson.</h1>
+                                <h3>I like to build things.</h3>
+                                <p class="lead">I'm a student of Northwestern University's full stack web development
+                                    bootcamp
+                                    based in
+                                    Chicago,
+                                    IL focusing on building high-quality websites and applications.</p>
+                                <a href="mailto:andrewpetersondev@gmail.com" target="_blank">email me</a>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- // container -->
-        </section>
-        <!-- // social section -->
+                </section>
 
-        <!-- scrollspy -->
-        <div id="scrollspy">
-            <!-- Links -->
-            <ul class="nav nav-pills default-pills smooth-scroll" data-allow-hashes="">
-                <li class="nav-item"><a class="nav-link" href="#about">about</a></li>
-                <li class="nav-item"><a class="nav-link" href="#experience">experience</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">projects</a>
-                    <ul class="pl-3">
-                        <li class="nav-item"><a class="nav-link" href="#trivia-game">trivia-game</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">word guess game</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">psychic game</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">project 1</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">trivia game basic</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">rpg</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">giftastic</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">crystals collector</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">rps</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">hangman</a></li>
+                <section id="about">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3>About Me</h3>
+                                <p>I am </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experience">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+
+                                <!-- progress bars -->
+
+                                <!-- <div class="progress">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 25%"
+                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%"
+                                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div> -->
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="projects">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <p>Take a look at my projects!</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="projects-display" class="col-12 card-columns">
+                                <div id="trivia-game" class="card" style="width: 18rem;">
+                                    <img src="./assets/images/question-mark.jpg" class="card-img-top"
+                                        alt="question mark">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Trivia Game</h5>
+                                        <p class="card-text">I really like to travel so I made a basic trivia game with
+                                            javascript.</p>
+                                        <a href="https://andrewpetersondev.github.io/trivia-game/" target="_blank">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                        <a href="https://github.com/andrewpetersondev/trivia-game" target="_blank">
+                                            <i class="fas fa-code"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="wordGuessGame" class="card" style="width: 18rem;">
+                                    <img src="./assets/images/hello.jpg" class="card-img-top" alt="hello">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Word Guess Game</h5>
+                                        <p class="card-text">Are you able to guess the what word I am thinking of?</p>
+                                        <a href="https://andrewpetersondev.github.io/word-guess-game/" target="_blank">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                        <a href="https://github.com/andrewpetersondev/word-guess-game" target="_blank">
+                                            <i class="fas fa-code"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="psychicGame" class="card" style="width: 18rem;">
+                                    <img src="./assets/images/letter-a.jpg" class="card-img-top" alt="letter a">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Psychic Game</h5>
+                                        <p class="card-text">Are you able to guess the what letter I am thinking of?</p>
+                                        <a href="https://andrewpetersondev.github.io/psychic-game/" target="_blank">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                        <a href="https://github.com/andrewpetersondev/psychic-game" target="_blank">
+                                            <i class="fas fa-code"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="basicTrainScheduler" class="card" style="width: 18rem;">
+                                    <img src="./assets/images/loop-train.jpg" class="card-img-top" alt="train">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Basic Train Scheduler</h5>
+                                        <p class="card-text">Check out this train scheduler that uses firebase!</p>
+                                        <a href="https://andrewpetersondev.github.io/basic-train-scheduler/"
+                                            target="_blank">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                        <a href="https://github.com/andrewpetersondev/basic-train-scheduler"
+                                            target="_blank">
+                                            <i class="fas fa-code"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="jqueryRPG" class="card" style="width: 18rem;">
+                                    <img src="./assets/images/khaleesi-army.jpeg" class="card-img-top"
+                                        alt="game of thrones">
+                                    <div class="card-body">
+                                        <h5 class="card-title">jQuery RPG</h5>
+                                        <p class="card-text">Winter is coming!</p>
+                                        <a href="https://andrewpetersondev.github.io/rpg/" target="_blank">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                        <a href="https://github.com/andrewpetersondev/rpg" target="_blank">
+                                            <i class="fas fa-code"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="gifTastic" class="card" style="width: 18rem;">
+                                    <img src="./assets/images/stewie.gif" class="card-img-top"
+                                        alt="stewie from family guy">
+                                    <div class="card-body">
+                                        <h5 class="card-title">gifTastic</h5>
+                                        <p class="card-text">describe this project</p>
+                                        <a href="https://andrewpetersondev.github.io/gifTastic/" target="_blank">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                        <a href="https://github.com/andrewpetersondev/gifTastic" target="_blank">
+                                            <i class="fas fa-code"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="bestBuds" class="card" style="width: 18rem;">
+                                    <img src="./assets/images/jumbobg.png" class="card-img-top" alt="cannabis">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Best Buds</h5>
+                                        <p class="card-text">This is my first group project.</p>
+                                        <a href="https://andrewpetersondev.github.io/project-1/" target="_blank">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                        <a href="https://github.com/andrewpetersondev/project-1" target="_blank">
+                                            <i class="fas fa-code"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="crystalsCollectorGame" class="card" style="width: 18rem;">
+                                    <img src="./assets/images/red-crystal.png" class="card-img-top" alt="red crystal">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Crystals Collector Game</h5>
+                                        <p class="card-text">describe later</p>
+                                        <a href="https://andrewpetersondev.github.io/crystals-collector-game/"
+                                            target="_blank">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                        <a href="https://github.com/andrewpetersondev/crystals-collector-game"
+                                            target="_blank">
+                                            <i class="fas fa-code"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="nodeLiriApp" class="card" style="width: 18rem;">
+                                    <img src="./assets/images/liri-bot.jpg" class="card-img-top" alt="liri bot">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Node LIRI App</h5>
+                                        <p class="card-text">describe later</p>
+                                        <a href="https://github.com/andrewpetersondev/liri-node-app" target="_blank">
+                                            <i class="fas fa-code"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="bamazon" class="card" style="width: 18rem;">
+                                    <img src="./assets/images/store.jpeg" class="card-img-top" alt="question mark">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bamazon</h5>
+                                        <p class="card-text">Text</p>
+                                        <a href="https://andrewpetersondev.github.io/bamazon/" target="_blank">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                        <a href="https://github.com/andrewpetersondev/bamazon" target="_blank">
+                                            <i class="fas fa-code"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="friendFinder" class="card" style="width: 18rem;">
+                                    <img src="./assets/images/friendFinder.png" class="card-img-top"
+                                        alt="question mark">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Friend Finder</h5>
+                                        <p class="card-text">Text</p>
+                                        <a href="https://andrewpetersondev.github.io/friendfinder/" target="_blank">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                        <a href="https://github.com/andrewpetersondev/friendfinder" target="_blank">
+                                            <i class="fas fa-code"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="burgers" class="card" style="width: 18rem;">
+                                    <img src="./assets/images/burger.png" class="card-img-top" alt="question mark">
+                                    <div class="card-body">
+                                        <h5 class="card-title">burgers</h5>
+                                        <p class="card-text">Text</p>
+                                        <a href="https://andrewpetersondev.github.io/burgers/" target="_blank">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                        <a href="https://github.com/andrewpetersondev/burgers" target="_blank">
+                                            <i class="fas fa-code"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="project2" class="card" style="width: 18rem;">
+                                    <img src="./assets/images/wishList.jpg" class="card-img-top" alt="question mark">
+                                    <div class="card-body">
+                                        <h5 class="card-title">project2</h5>
+                                        <p class="card-text">Text</p>
+                                        <a href="https://andrewpetersondev.github.io/project2/" target="_blank">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                        <a href="https://github.com/andrewpetersondev/project2" target="_blank">
+                                            <i class="fas fa-code"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="current-projects">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <p>These are projects I am working on in my free time.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 card-columns">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./assets/images/rps.jpg" class="card-img-top" alt="rock paper scissors">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Rock Paper Scissors</h5>
+                                        <p class="card-text">Multiplayer rock paper scissors with firebase</p>
+                                        <!-- play icon -->
+                                        <!-- <a href="" target="_blank"> <i class="fas fa-play"></i> </a> -->
+                                        <a href="https://github.com/andrewpetersondev/rps-multiplayer" target="_blank">
+                                            <i class="fas fa-code"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- card mood identifier -->
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./assets/images/smile.jpg" class="card-img-top" alt="smiling thing">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mood Identifier</h5>
+                                        <p class="card-text">this is gonna be cool</p>
+                                        <!-- play icon -->
+                                        <!-- <a href="" target="_blank"> <i class="fas fa-play"></i> </a> -->
+                                        <a href="https://github.com/andrewpetersondev/mood identifier-multiplayer"
+                                            target="_blank">
+                                            <i class="fas fa-code"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- card cryptocurrency -->
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./assets/images/cryptocurrency.jpg" class="card-img-top"
+                                        alt="cryptocurrency">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cryptocurrency Analysis</h5>
+                                        <p class="card-text">this is gonna be cool</p>
+                                        <!-- play icon -->
+                                        <!-- <a href="" target="_blank"> <i class="fas fa-play"></i> </a> -->
+                                        <!-- <a href="" target="_blank"> <i class="fas fa-code"></i> </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="social">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3>follow me</h3>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-12">
+                                <div class="icon-container d-flex justify-content-around">
+                                    <div class="icon">
+                                        <a href="https://www.linkedin.com/in/andrew-peterson-005b11189/"
+                                            target="_blank">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
+                                    </div>
+                                    <div class="icon">
+                                        <a href="https://github.com/andrewpetersondev" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                    <div class="icon">
+                                        <a href="https://www.freecodecamp.org/fccef7e2ecb-40ec-4c46-a94a-b3351888b848"
+                                            target="_blank">
+                                            <i class="fab fa-free-code-camp"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div id="scrollspy">
+                    <ul class="nav nav-pills default-pills smooth-scroll" data-allow-hashes="">
+                        <li class="nav-item"><a class="nav-link" href="#about">about</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience">experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">projects</a>
+                            <ul class="pl-3">
+                                <li class="nav-item"><a class="nav-link" href="#trivia-game">trivia-game</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#projects">word guess game</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#projects">psychic game</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#projects">project 1</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#projects">trivia game basic</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#projects">rpg</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#projects">giftastic</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#projects">crystals collector</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#projects">rps</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#projects">hangman</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#current-projects">Current Projects</a>
+                            <ul class="pl-3">
+                                <li class="nav-item"><a class="nav-link" href="#current-projects">mood identifier</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="#current-projects">price predictor</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="#current-projects">rps</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a>
+                            <ul class="pl-3">
+                                <li class="nav-item"><a class="nav-link" href="#contact">email</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#contact">contact form</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#contact">internet presence</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="#current-projects">Current Projects</a>
-                    <ul class="pl-3">
-                        <li class="nav-item"><a class="nav-link" href="#current-projects">mood identifier</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#current-projects">price predictor</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#current-projects">rps</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a>
-                    <ul class="pl-3">
-                        <li class="nav-item"><a class="nav-link" href="#contact">email</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">contact form</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">internet presence</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <!-- Links -->
+                </div>
+            </div>
         </div>
-        <!-- // scrollspy -->
+
+
 
     </main>
-    <!-- // main -->
 
-    <!-- footer -->
     <footer class="bg-white py-5">
         <div class="container">
             <div class="row align-items-center pb-5">
                 <div class="col-md-4 text-center text-md-left">
                     <img src="assets/images/logo-text-black.png" alt="" class="footer-logo opacity-5">
                 </div>
-                <!-- //.col-md-4 -->
                 <div class="col-md-8">
                     <ul class="footer-icon-social mb-0 mt-4 p-0 text-center text-md-right title-xs-small title-medium">
                         <li class="list-inline-item">
@@ -578,24 +464,18 @@
                         </li>
                     </ul>
                 </div>
-                <!-- //.col-md-8 -->
             </div>
-            <!-- //.row -->
             <div class="row align-items-center border-top pt-5">
                 <div class="col text-center">
                     <span class="font-alt font-w-600 letter-spacing-1 text-gray-dark text-small text-uppercase">©
                         2019 Andrew Peterson</span>
                 </div>
-                <!-- //.col -->
             </div>
-            <!-- //.row -->
         </div>
-        <!-- //.container -->
-    </footer>
-    <!-- // footer -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    </footer>
+
+    <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
@@ -605,9 +485,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-    <!-- font awesome -->
     <script src="https://kit.fontawesome.com/bd38170f6d.js"></script>
-    <!-- main logic -->
     <script src="./assets/javascript/app.js"></script>
 </body>
 
